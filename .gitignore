@@ -1,0 +1,14 @@
+.idea/
+build/
+cmake-build-*/
+*.ipr
+*.iml
+*.iws
+target/
+*.jar
+!.mvn/wrapper/*
+.settings/
+.project
+.classpath
+.xmake/
+CMakeLists.txt

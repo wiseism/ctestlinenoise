@@ -1,0 +1,25 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: install xmake
+      run:   |
+        sudo apt update
+        curl -fsSL https://xmake.io/shget.text | bash
+    - name: xmake -y
+      run:   |
+        xmake f -m debug
+#        xmake build ctestttbox_list2
+#        xmake run ctestttbox_list2
+        xmake -y
