@@ -20,6 +20,4 @@ jobs:
     - name: xmake -y
       run:   |
         xmake f -m debug
-#        xmake build ctestttbox_list2
-#        xmake run ctestttbox_list2
         xmake -y
