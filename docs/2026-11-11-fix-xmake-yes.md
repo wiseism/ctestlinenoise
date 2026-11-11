@@ -16,4 +16,5 @@
 ## 验证记录
 | Run | 结果 |
 |---|---|
-| 待 re-run | 待填 |
+| 新 push 触发 run | 待填 |
+| 42442002013 (re-run, 修复前) | failure — configure 无 -y |
