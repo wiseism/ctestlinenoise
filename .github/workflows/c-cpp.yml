@@ -19,5 +19,5 @@ jobs:
         curl -fsSL https://xmake.io/shget.text | bash
     - name: xmake -y
       run:   |
-        xmake f -m debug
+        xmake f -m debug -y
         xmake -y
