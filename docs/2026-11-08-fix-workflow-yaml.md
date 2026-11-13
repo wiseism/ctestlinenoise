@@ -29,4 +29,4 @@ GitHub Actions 解析失败后整个 workflow 无法创建 job。
 ## 验证
 | run id | 结果 |
 | --- | --- |
-| 本次推送触发 | 待填 |
+| 43051643781 | ✅ success |
